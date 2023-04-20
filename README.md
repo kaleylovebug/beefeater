@@ -11,4 +11,4 @@ GPT2- AI trial 2
 GPT3- AI trial 3
 Q1-10- Questions 1-10
 
-Token Size-
+Tokens- 192
