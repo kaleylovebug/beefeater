@@ -1,0 +1,64 @@
+ASSIGNMENT #7
+
+1)
+
+ID	WORD	LEMMA	POS	DEP	HEAD
+1	The	the	DET	det	2
+2	tipsy	tipsy	ADJ	amod	3
+3	sailor	sailor	NOUN	nsubj	4
+4	waived	waive	VERB	ROOT	0
+5	from	from	ADP	prep	4
+6	the	the	DET	det	7
+7	ship	ship	NOUN	pobj	5
+
+2)
+
+ID	WORD	LEMMA	POS	DEP	HEAD
+1	Mary	Mary	PROPN	nsubj	2
+2	went	go	VERB	ROOT	0
+3	home	home	ADV	advmod	2
+4	after	after	ADP	prep	2
+5	the	the	DET	det	6
+6	potluck	potluck	NOUN	pobj	4
+
+3)
+
+ID	WORD	LEMMA	POS	DEP	HEAD
+1	I	I	PRON	nsubj	2
+2	am	be	VERB	ROOT	0
+3	so	so	ADV	advmod	4
+4	excited	excite	ADJ	acomp	2
+5	to	to	PART	aux	2
+6	move	move	VERB	xcomp	2
+7	out	out	ADV	prt	6
+8	of	of	ADP	prep	6
+9	my	my	PRON	poss	10
+10	apartment	apartment	NOUN	pobj	8
+11	into	into	ADP	prep	6
+12	a	a	DET	det	13
+13	new	new	ADJ	amod	14
+14	one	one	NOUN	pobj	11
+
+4)
+
+ID	WORD	LEMMA	POS	DEP	HEAD
+1	Mary	Mary	PROPN	nsubj	2
+2	threw	throw	VERB	ROOT	0
+3	out	out	ADV	prt	2
+4	the	the	DET	det	5
+5	large	large	ADJ	amod	6
+6	bag	bag	NOUN	dobj	2
+7	of	of	ADP	prep	6
+8	trash	trash	NOUN	pobj	7
+
+5)
+
+ID	WORD	LEMMA	POS	DEP	HEAD
+1 Mary Mary PROPN nsubj 2
+2 threw throw VERB ROOT 0
+3 the the DET det 4
+4 large large ADJ amod 5
+5 bag bag NOUN dobj 2
+6 of of ADP prep 5
+7 trash trash NOUN pobj 6
+8 out out ADV advmod 2.
