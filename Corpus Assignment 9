@@ -1,0 +1,63 @@
+Corpus Assignment #9
+
+Human and AI responses to test questions differ in several ways.
+One study found that humans tend to answer questions more quickly than AI systems, but AI systems are more accurate overall (Kumar et al., 2020).
+Additionally, AI systems are less likely to be influenced by emotional or contextual factors than humans, which can lead to biases in human responses (Bao et al., 2021). 
+Overall, while there are differences in the strengths and weaknesses of human and AI responses to test questions, both can be valuable tools for assessing knowledge and understanding.
+
+With bias having a stronger presence in human responses than AI responses, I sought to answer the research question: "Is the TTR of human test responses higher than that of ChatGPT AI responses?" 
+My hypothesis was that there would be a higher TTR across human responses due to higher variability in the test responses. 
+
+To gather data, I collected 4 humans' responses to 10 test questions.
+I then asked Chat GPT the same 10 questions, three times. 
+I organized this data in Google Sheets and then converted it into a txt. file.
+To find the TTR of the data, I asked ChatGPT to write me a script to find TTR on Google Colabs.
+The script I used was:
+
+!pip install nltk # Install NLTK package
+
+import nltk
+from nltk.tokenize import word_tokenize
+
+# Download punkt tokenizer
+nltk.download('punkt')
+
+# Define function to calculate TTR
+def calculate_ttr(text):
+  # Tokenize the text into words
+  words = word_tokenize(text)
+  
+  # Calculate the number of unique words
+  unique_words = set(words)
+  num_unique_words = len(unique_words)
+  
+  # Calculate the TTR
+  ttr = num_unique_words / len(words)
+  
+  return ttr
+
+# Example text
+text = ""
+
+# Calculate TTR
+ttr = calculate_ttr(text)
+
+# Print TTR
+print("TTR:", ttr)
+
+I then copied the entirety of the human responses into the script to find the TTR, and did the same with the GPT responses. 
+The results I received are as follows:
+
+TTR of human responses: 0.3343725643024162
+TTR of GPT responses: 0.28462192013593884
+
+These results were a bit surprising.
+I expected there to be a much lower TTR in the GPT responses as I regenerated their responses, so I expected them to use the same words over and over again.
+What this research revealed to me is that GPT is much more humanlike in its responses than I thought. 
+I expected there to be a higher variability in the human responses than there was as well. 
+These lower ratios could also be attributed to the fact that the vocabulary used in corpus linguistics is highly specialized, therefore it is repeated frequently in the responses because there are a lack of synonyms to utilize. 
+
+Sources:
+
+Kumar, A., Sharma, S., & Varma, V. (2020). A Comparative Analysis of Human and Artificial Intelligence. International Journal of Advanced Science and Technology, 29(8), 5721-5731.
+Bao, X., Duan, Y., Zhou, Y., & Mao, R. (2021). Emotional Bias in Human Perception and Recognition of AI-Generated Images. Frontiers in Psychology, 12, 694660.
