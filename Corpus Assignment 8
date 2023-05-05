@@ -1,0 +1,24 @@
+ASSIGNMENT #8
+
+1) Frequencies in LCC txt-
+
+uh-5
+I-10268
+stoves-4
+superfluid-1
+monstrous-2
+
+Frequencies in SWBC mini txt-
+uh- 5531
+I- 7908
+stoves-1
+superfluid- 0
+monstrous- 0
+
+The Switchboard Corpus is a corpus of spoken data, so there are less complex words and more verbal fillers.
+
+2) 0.636364
+
+3.1)  Yes, 'but' could be considered a stop word as it is used to conjoin two clauses, and it does not add much meaning to the overall sentence.
+
+3.2) No, 'was' should not be considered a stop word since it is a past tense form of the verb 'be', 'was' holds more semantic meaning than 'but'.
